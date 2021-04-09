@@ -1,0 +1,38 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_targets }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+class {{ module_info.name }}ViewController: UIViewController {
+
+    // MARK: - Variables
+
+    private lazy var presenter = {{ module_info.name }}Presenter(view: self)
+
+
+    // MARK: - IBOutlets
+
+
+    // MARK: - LifeCycles
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+
+    // MARK: - UI setup
+
+
+    // MARK: - UI actions
+
+}
+
+// MARK: - View Protocol
+extension {{ module_info.name }}ViewController: {{ module_info.name }}View {
+
+}

@@ -1,0 +1,14 @@
+# Template information section
+name: "vp_of_mvp"
+summary: "MVPアーキテクチャのViewとPresenterに関するファイル一式を作成します。作成されるもの:ViewController, Presenter, View(protocol), Storyboard"
+author: "Handa.H"
+version: "1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+- {name: ViewController.swift, path: Code/viewController.swift.liquid}
+- {name: View.swift, path: Code/view.swift.liquid}
+- {name: Presenter.swift, path: Code/presenter.swift.liquid}
+- {name: .storyboard, path: Code/storyboard.liquid}
