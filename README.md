@@ -12,6 +12,6 @@ templates:
 - {name: vp_of_mvp}
 ```
 
-2. Run `generamba template install`
+2. Run `generamba template install`.
 
-3. Run `gemeramba gen [MODULE NAME] vp_of_mvp`
+3. Run `gemeramba gen [MODULE NAME] vp_of_mvp`.
